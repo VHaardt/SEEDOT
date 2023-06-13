@@ -85,7 +85,7 @@ This function has two callable sub-functions:
 - `score_functions()`: allow to get the score function division that allow to transform the model weight in score for vader dictionary. 
 - `seedot()`: allow to apply the seedot procedure to get a domain oriented dictionary for sentiment analysis starting from a dataset.
 
-#### ---`score_functions()`---------------------\\
+#### score_functions()
 The `score_functions()` allow to find the best cut to transform weights in scores following two different scoring functions.
 It work with a sub-sub-function `division()` in the following way:
 
