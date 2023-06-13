@@ -125,7 +125,7 @@ Optimal division ->  +4: 0.3   +3: 0.1   -4: -0.3   -3: -0.1
 ```
 This function allow to understand some output for the `seedot()` function.
 
----`seedot()`---------------------
+#### seedot()
 The `seedot()` allow to create a dictionary with word and scores to be used for sentiment analysis.
 It work with a sub-sub-function `domain_dictionary()` in the following way:
 
@@ -207,7 +207,7 @@ This function has a callable sub-functions:
 - `SIA()`: SentimentIntensityAnalyzer()  function assigns a sentiment intensity score to sentences. This score quantifies
 the sentiment expressed in a sentence, indicating the level of positivity or negativity.
 
----`SIA()`---------------------
+#### SIA()
 The `SIA()` allow to create a perform sentiment analysis selecting a domain specific dictionary.
 It work with a many sub-function, sub-functions that have been kept the same as those found in VADER, ensuring compatibility and familiarity. For detailed information and exploration of all the possibilities, we recommend referring to the official VADER repository on GitHub: <https://github.com/cjhutto/vaderSentiment>.
 
