@@ -145,9 +145,9 @@ where:
 - `model`: allow to specify the model to use for the procedure, currently only logistic has been implemented. It is `"logistic"` by default.
 - `score_function`: must be ether `1`, `2` or `3`, referring the score function to use, it is `1` by default:
 
-  -`1`: (-2: -4) (-1:-3.5) (-0.5, -2.5) (0.5: +2.5) (1: +3.5) (2: +4)
-  -`2`: division to assign score 4/-4
-  -`3`: division to assign score 4/-4 and 3/-3
+  - `1`: (-2: -4) (-1:-3.5) (-0.5, -2.5) (0.5: +2.5) (1: +3.5) (2: +4)
+  - `2`: division to assign score 4/-4
+  - `3`: division to assign score 4/-4 and 3/-3
 
 - `division`: linked to `score_function` value, can be ether `None` or a list with 1 or 2 element identifying the cuts:
 
