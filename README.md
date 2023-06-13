@@ -98,8 +98,8 @@ where:
 - `data`: must be a dataset with two columns relatively called 'Score' (that contain: 'Positive', 'Negative', 'Neutral') and 'Text' that contain the text. It is `None` by default.
 - `score_function`: must be ether `2` or `3`, referring the score function to use, it is `None` by default:
 
-  -`2`: find the optimal division where to assign score 4/-4
-  -`3`: find the optimal division where to assign score 4/-4 and 3/-3
+  - `2`: find the optimal division where to assign score 4/-4
+  - `3`: find the optimal division where to assign score 4/-4 and 3/-3
 
 - `model`: allow to specify the model to use for the procedure, currently only logistic has been implemented. It is `"logistic"` by default.
 
